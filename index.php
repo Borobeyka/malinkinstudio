@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang = "ru">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<title>Malinkin Studio</title>
+		<link href = "https://fonts.googleapis.com/css?family=Staatliches" rel = "stylesheet">
+		<link href = "https://fonts.googleapis.com/css?family=Kelly+Slab" rel = "stylesheet">
+		<link href = "https://fonts.googleapis.com/css?family=Rubik+Mono+One&amp;subset=cyrillic" rel = "stylesheet">
+		<link href = "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=cyrillic" rel = "stylesheet">
+		<link href = "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel = "stylesheet">
+		<link rel = "shortcut icon" href = "/images/favicon.ico" type = "image/x-icon">
+		<link rel = "stylesheet" href = "/css/reset.css">
+		<link rel = "stylesheet" href =  "/css/jquery.mCustomScrollbar.css">
+		<link rel = "stylesheet" href = "/css/sprites.css">
+		<link rel = "stylesheet" href = "/css/main.css">
+	</head>
+	<body>
+		<div class = "center-window">
+			<div class = "logotype">
+				<a href = "">
+					Malinkin Studio
+				</a>
+			</div>
+			<nav class = "menu">
+				<a href = "#about">Обо мне</a>
+				<a href = "#portfolio">Портфолио</a>
+				<a href = "#services">Услуги</a>
+				<a href = "#comments">Отзывы</a> 
+				<a href = "#contacts">Контакты</a>
+			</nav>
+			<div class = "about">
+				<h1>
+					<a id = "about">Обо мне</a>
+				</h1>
+				<div>
+					<div class = "image"></div>
+					<div class = "description">
+						<p>Меня зовут Малинкин Данила</p>
+						<p>Учусь в Колледже приборостроения и информационных технологий при РТУ МИРЭА</p>
+						<p>По специальности 09.02.03 Програмирование в компьютерных системах</p>
+						<hr width = "90%">
+						<p>В своих проектах нацелен на результат, качественное выполнение</p>
+						<p>Имею навыки в разработке программных модулей ПО для компьютерных систем, разработке и администрировании БД, верстке и создании интернет-сайтов</p>
+						<p>Проходил стажировку в ПАО "Сбербанк-Технологии"</p>
+					</div>
+				</div>
+			</div>
+			<div class = "advantages">
+				<h1>Преимущества работы со мной</h1>
+				<div>
+					<div class = "item">
+						<div class = "image">
+							<div class = "advantage time"></div>
+						</div>
+						<div class = "description">
+							Выполнение проектов без задержек к согласованной дате
+						</div>
+					</div>
+					<div class = "item">
+						<div class = "image">
+							<div class = "advantage padlock"></div>
+						</div>
+						<div class = "description">
+							Гарантия конфиденциальности файлов Вашего проекта
+						</div>
+					</div>
+					<div class = "item">
+						<div class = "image">
+							<div class = "advantage comments"></div>
+						</div>
+						<div class = "description">
+							Положительные отзывы и рекомендации
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "portfolio-background">
+			<div class = "center-window">
+				<div class = "portfolio">
+					<h1>
+						<a id = "portfolio">Портфолио</a>
+					</h1>
+					<h2>Награды</h2>
+					<div>
+						<div class = "arrows left" id = "portfolio-left"></div>
+						<div class = "content">
+							<div class = "items">
+								<img src = "images/portfolio/attachment_21.jpg">
+								<p>
+									Диплом получен за участие в концерении "Первые шаги в науку", на которой я представлял свой проект механической руки под управленим микроконтроллера на платформе Arduino. Механическая рука в точности повторяла движения ее оператора
+								</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_22.jpg">
+								<p>Грамота, полученная по результатам 2017 - 2018 учебного года</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_23.jpg">
+								<p>Грамота, полученная по результатам 2016 - 2017 учебного года</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_24.jpg">
+								<p>Диплом за 3 место в онлайн олимпиаде по основам программирования</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_25.jpg">
+								<p>Сертификат участника физико-математической олимпиады МИРЭА</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_26.jpg">
+								<p>Диплом 2 степени 1 Всероссийской олимпиады "Экономика отрасли"</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_27.jpg">
+								<p>Диплом за активное участие в научно-практической конференции "Полезная экономика"</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_28.jpg">
+								<p>Сертификат участника интерактивного семинара "История России конца 19 - начала 20 вв."</p>
+							</div>
+							<div class = "items">
+								<img src = "images/portfolio/attachment_29.jpg">
+								<p>Сертификат участника конкурса "Когда я стану благотворителем..."</p>
+							</div>
+						</div>
+						<div class = "arrows right" id = "portfolio-right"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "center-window">
+			<div class = "services">
+				<h1>
+					<a id = "services">Предоставляемые услуги</a>
+				</h1>
+				<div class = "item">
+					<div class = "mark marker"></div>
+					<p>Разработка программных модулей ПО для компьютерных систем</p>
+				</div>
+				<div class = "item">
+					<div class = "mark marker"></div>
+					<p>Верстка и создание интернет-сайтов</p>
+				</div>
+				<div class = "item">
+					<div class = "mark marker"></div>
+					<p>Проектирование и разработка баз данных (SQL)</p>
+				</div>
+				<div class = "item">
+					<div class = "mark marker"></div>
+					<p>Программная и физическая разработка проектов на микроконтроллерах Atmel AVR</p>
+				</div>
+			</div>
+		</div>
+		<div class = "comments-background">
+			<div class = "center-window">
+				<div class = "comments">
+					<h1>
+						<a id = "comments">Отзывы заказчиков</a>	
+					</h1>
+					<div>
+						<?php require "handlers/reviews.php"; ?>
+					</div>
+					<h1>Оставьте отзыв</h1>
+					<div class = "supplementation">
+						<form action = "/" method = "POST" id = "form_review">
+							<div class = "rows">
+								<div class = "text">Введите имя:</div>
+								<div class = "input">
+									<input type = "text" name = "user_name" />
+								</div>
+								<div class = "text">Введите E-Mail:</div>
+								<div class = "input">
+									<input type = "text" name = "user_email" />
+								</div>
+							</div>
+							<div class = "cols">
+								<div class = "text">Введите сообщение:</div>
+								<div class = "textarea">
+									<textarea name = "user_message"></textarea>
+								</div>
+								<div class = "textarea">
+									<input type = "submit" value = "Отправить">
+								</div>
+								<div class = "textarea">
+									<p id = "review_result"></p>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="center-window">
+			<div class = "contacts">
+				<h1>
+					<a id = "contacts">Связь со мной</a>
+				</h1>
+				<div>
+					<div class = "item">
+						<a href = "mailto:malinkin.d.r@ya.ru" target = "_blank">
+							<div class = "socials email"></div>
+						</a>
+						<a href = "mailto:malinkin.d.r@ya.ru" target = "_blank">malinkin.d.r@ya.ru</a>
+					</div>
+					<div class = "item">
+						<a href = "tel:891691343xx" target = "_blank">
+							<div class = "socials whatsapp"></div>
+						</a>
+						<a href = "tel:891691343xx" target = "_blank">+7 (916) 913 - 43 - XX</a>
+					</div>
+					<div class = "item">
+						<a href = "http://www.vk.com/malinkindr" target = "_blank">
+							<div class = "socials vk"></div>
+						</a>
+						<a href = "http://www.vk.com/malinkindr" target = "_blank">vk.com/malinkindr</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type = "text/javascript" src = "/scripts/jquery.js"></script>
+		<script type = "text/javascript" src = "/scripts/main.js"></script>
+	</body>
+</html>

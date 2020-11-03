@@ -1,0 +1,76 @@
+.advantage {
+    background-image: url("/images/sprites/advantages.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.comments {
+    width: 32px;
+    height: 32px;
+    background-position: -3px -3px;
+}
+.padlock {
+    width: 32px;
+    height: 32px;
+    background-position: -41px -3px;
+}
+.time {
+    width: 32px;
+    height: 32px;
+    background-position: -79px -3px;
+}
+
+
+.arrows {
+    background-image: url("/images/sprites/arrows.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.left {
+    width: 64px;
+    height: 64px;
+    background-position: -2px -2px;
+}
+.right {
+    width: 64px;
+    height: 64px;
+    background-position: -70px -2px;
+}
+.left:hover, .right:hover {
+    cursor: pointer;
+}
+
+.mark {
+    background-image: url("/images/sprites/mark.png");
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 15px;
+}
+.marker {
+    width: 24px;
+    height: 24px;
+    background-position: -2px -2px;
+}
+
+.socials {
+    background-image: url("/images/sprites/socials.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.email {
+    width: 64px;
+    height: 64px;
+    background-position: -3px -3px;
+}
+
+.vk {
+    width: 64px;
+    height: 64px;
+    background-position: -73px -3px;
+}
+
+.whatsapp {
+    width: 64px;
+    height: 64px;
+    background-position: -143px -3px;
+}

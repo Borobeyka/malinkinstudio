@@ -1,0 +1,20 @@
+.center
+{
+	width: 540px;
+	margin: 0 auto;
+	background-color: #AED6F1;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+table
+{
+	text-align: left;
+}
+
+input
+{
+	width: 80%;
+}
